@@ -3,26 +3,22 @@ import Image from 'next/image'
 export default function login (){
     return (
         <div id='loginContainer'>
-            <Image
-            src='/tunel.png'
-            layout='fill'
-            />
-            
-            <Image id='loginLogo'
-            src='/logo.png'
-            width={200}
-            height={200}
-            
-            />
+            <main id='LoginMain'>
+            <h1 id='h1login'>Faça seu login</h1>
+            <div id='FormDiv'>
+            <form action="/">
+                <label htmlFor="email" id='email'>Email</label>
+                <section className='inputLogin'>
+                    <input type="text" id='email'/>
+                </section>
 
-            <div id='loginBox'>
-                <form action="/" method='post'>
-                <div>
-                    <label htmlFor="email">Email</label>
-                    <input type="text" id='email' />
-                </div>
-                </form>
             </div>
+            <div id='form'>
+                <label htmlFor="password">Senha</label>
+                <input type="password" id='password'/>
+            </div>
+            </main>
+        </form>
         </div>
     )
 

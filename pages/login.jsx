@@ -12,13 +12,14 @@ export default function login (){
                     <input type="text" id='email'/>
                 </section>
 
+            </form>
             </div>
             <div id='form'>
                 <label htmlFor="password">Senha</label>
                 <input type="password" id='password'/>
-            </div>
+            </div><a href="/dashboard"><button id='loginButton'>Entar</button></a>
             </main>
-        </form>
+
         </div>
     )
 

@@ -18,7 +18,7 @@ export default function Home() {
     <h2 className='text'>O OutCash, é a sua solução para suas dúvidas sobre o mundo financeiro.
     Somos uma plataforma simples com o objetivo de trazer suas finanças de volta para seu controle.</h2>
     
-      <a href="/login" target="_blank" rel="noopener noreferrer"><button id='Hbutton'>Acesse a plataforma</button></a>
+      <a href="/login"  rel="noopener noreferrer"><button id='Hbutton'>Acesse a plataforma</button></a>
     
   </div>
   <ul id='Homelist'> 
